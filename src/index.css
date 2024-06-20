@@ -25,4 +25,16 @@ code {
   padding: 15px 10px;margin-bottom: 15px;border-radius: 2px;
   border-bottom: 1px solid #eee;box-shadow: 0 2px 4px 2px #ccc;
   cursor: pointer;
+  width: 100%;
+}
+.item-block {
+  display: flex;
+  button {
+    padding: 15px 10px;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 4px 2px #ccc;
+  }
 }

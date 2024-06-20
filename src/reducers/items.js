@@ -13,6 +13,8 @@ const items = (state = [], action) => {
             return state.map(item =>
                 item.id === action.id ? { ...item, completed: !item.completed } : item
             )
+        case 'DELETE_ITEM':
+            return state.filter(item => item.id !== action.id)
         default:
             return state
     }

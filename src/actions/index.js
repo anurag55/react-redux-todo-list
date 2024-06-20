@@ -10,3 +10,8 @@ export const updateItem = id => ({
     type: 'UPDATE_ITEM',
     id
 });
+
+export const deleteItem = id => ({
+    type: 'DELETE_ITEM',
+    id
+});
